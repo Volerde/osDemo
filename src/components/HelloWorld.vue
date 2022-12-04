@@ -32,7 +32,7 @@ const chartData = ref({
         }
     ]
 })
-
+/** 接收内存分配情况的数组 */
 const list = ref(Array<Memory>())
 
 /** 分配内存的大小 */
